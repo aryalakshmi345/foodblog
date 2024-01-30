@@ -34,11 +34,11 @@ function MyProfile() {
             <img style={{borderRadius:'50%',height:'260px',width:'260px'}} className='img-fluid mb-3' src={userDetails.profile?`${BASE_URL}/uploads/${userDetails.profile}`:"https://sandcliffsales.com/static/assets/img/team/default-profile.png"} alt="" />
             </label>
      </div>
-         <div className='mt-2 text-center'>
+         <div className='mt-2 text-center mb-3'>
            <h3 >{userDetails.username}</h3>
            <h5>{userDetails.profession}</h5>
            <p>{userDetails.bio}</p>
-           {/* <a href={userDetails.website} target='_id'>{userDetails.website}</a> */}
+           <a  href={userDetails.website} target='_id'>{userDetails.website}</a>
          </div>
          <div className='d-flex align-items-center justify-content-between'>
               <EditProfile/>

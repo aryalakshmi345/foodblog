@@ -43,7 +43,7 @@ function Home() {
              </Link>}
           </Col>
           <Col sm={12} md={5}>
-            <img  className='img-fluid w-100' style={{height:'60vh'}} src="https://img.freepik.com/premium-photo/healthy-food-isolated-background_839172-820.jpg" alt="" />
+            <img  className='img-fluid w-100' style={{height:'65vh'}} src="https://img.freepik.com/premium-photo/healthy-food-isolated-background_839172-820.jpg" alt="" />
           </Col>
         </Row>
       </div> 

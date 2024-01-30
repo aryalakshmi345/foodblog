@@ -21,8 +21,8 @@ function Footer() {
           <Link to={"/"}  style={{textDecoration:"none", color:'black'}}>Home</Link>
           <Link to={"/login"}  style={{textDecoration:"none", color:'black'}}>Login </Link>
           <Link to={"/register"}  style={{textDecoration:"none", color:'black'}}>Register</Link>
-          <Link to={"/allblogs"}  style={{textDecoration:"none", color:'black'}}>Blogs</Link>
-          <Link to={"/dashboard"}  style={{textDecoration:"none", color:'black'}}>Dashboard</Link>
+          {/* <Link to={"/allblogs"}  style={{textDecoration:"none", color:'black'}}>Blogs</Link>
+          <Link to={"/dashboard"}  style={{textDecoration:"none", color:'black'}}>Dashboard</Link> */}
 
 
          </div>

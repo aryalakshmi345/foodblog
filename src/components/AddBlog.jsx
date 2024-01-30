@@ -112,7 +112,7 @@ function AddBlog() {
                   <input type="text" className='form-control' placeholder='Blog Title' value={blogDetails.title} onChange={e=>setBlogDetails({...blogDetails,title:e.target.value})}/>
                   </div>
                   <div class="mb-3">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='Type your blog' value={blogDetails.blogContent} onChange={e=>setBlogDetails({...blogDetails,blogContent:e.target.value})}></textarea>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder='Tell About Your Recipe' value={blogDetails.blogContent} onChange={e=>setBlogDetails({...blogDetails,blogContent:e.target.value})}></textarea>
                 </div>
                 <div className='mb-3'>
                   <input type="text" className='form-control' placeholder='Incredients' value={blogDetails.incredients} onChange={e=>setBlogDetails({...blogDetails,incredients:e.target.value})}/>
